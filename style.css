@@ -1,0 +1,252 @@
+/* Body Header */
+
+#body-header {
+    height:20vh;
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+#my-name {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    opacity: 0.85;
+    margin-left: 50px;
+}
+
+#name-container{
+    margin-bottom: -50px;
+}
+
+#my-image{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+#about-para{
+    padding: 30px;
+    width: 40%;
+    text-align: justify;
+    color: white;
+    line-height: 28px;
+    font-size: 1rem;
+    margin: 40px;
+    font-family: -webkit-pictograph;
+    display: inline-block;
+    background: darkblue;
+    opacity: 0.75;
+}
+
+#my-image{
+    border-width: 1px;
+}
+
+#Contact-details{
+
+    padding-top: 30px;
+    width: 40%;
+    text-align: justify;
+    color: black;
+    line-height: 28px;
+    font-size: 1rem;
+    margin: auto;
+    font-family: -webkit-pictograph;
+    display: inline-block;
+
+}
+
+.icons{
+    height: 25px;
+    width: 25px;
+}
+
+.icons-linkedin{
+    height: 50px;
+    width: 50px;
+    margin-bottom: -15px;
+}
+
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Upper-head{
+    text-align: center;
+    color: floralwhite;
+    margin-top: 50px;
+    font-family: -webkit-pictograph;
+    font-size: 2.5em;
+}
+
+.middle-container{
+    width: 80%;
+    height: 500px;
+    background-color: rgba(254,254,254,0.87);
+    align-content: center;
+    margin: auto;
+}
+
+.highlight{
+    font-size: 1.2rem;
+    font-family: system-ui;
+    color: darkblue;
+}
+
+.listing{
+
+    font-size: 1rem;
+    font-family: -webkit-pictograph;
+
+}
+
+#page{
+    background-image: url(Images/background.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#About-me{
+    padding-top: 30px;
+    width: 70%;
+    text-align: justify;
+    color: black;
+    line-height: 28px;
+    font-size: 1rem;
+    margin: auto;
+    font-family: -webkit-pictograph;
+
+}
+
+#skills{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+/* Navigation */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Experience */
+.timeline {
+    position: relative;
+}
+
+.timeline-box {
+    padding: 5px;
+    width: 90%;
+    min-height: 150px;
+    position: relative;
+    left: 2%;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.timeline-container {
+    padding: 8px;
+        margin-left: 30%;
+    margin-bottom: -40px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 5%;
+    left: 10%;
+    border: 1px dashed #011124;
+    height: 95%;;
+    color: #433E3F;
+}
+
+.experience-designation {
+    font-size: 1.4rem;
+    color: #042d52;
+}
+
+.experience-company-name {
+    margin: -5px 0 0;
+    color: #042d52;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.experience-duration {
+    margin: 5px 0 0;
+    color: #9e9b9b;
+    font-weight: 100;
+    color: #042d52;
+    font-size: 1rem;
+}
+
+.experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: black;
+    line-height: 20px;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.middle-container-experience{
+    width: 80%;
+    height: 800px;
+    background-color: rgba(254,254,254,0.87);
+    align-content: center;
+    margin: auto;
+}
+
+/* Projects */
+.middle-container-projects{
+    width: 80%;
+    height: 600px;
+    background-color: rgba(254,254,254,0.87);
+    align-content: center;
+    margin: auto;
+}

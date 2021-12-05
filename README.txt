@@ -37,7 +37,7 @@ Website
 |	  |----linked-in.jpg
 |	  |----instagram.jpg
 |
-|-- index.html
+|-- index.html(Main page)
 |
 |-- About.html
 |
@@ -47,5 +47,5 @@ Website
 |
 |-- Projects.html
 |
-|-- style.css
+|-- style.css(Contains the code for styling)
 
